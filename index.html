@@ -12,85 +12,93 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <a href="#">
         <img
           src="https://operation-code-assets.s3.us-east-2.amazonaws.com/codeSchoolLogos/app_academy.jpg"
           alt="the logo of app academy"
         />
       </a>
-      <ul>
-        <li>Home</li>
-        <li>News</li>
-        <li>Updates</li>
-        <li>More</li>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">More</a></li>
+        <li class="btn"><a href="#">Sign In</a></li>
       </ul>
-      <button type="button">Sign in</button>
     </nav>
 
     <main>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h1>Learn to code online for free</h1>
     </main>
-    <section>
-      <div>
-        <p>By Randy Goldsmith</p>
-        <i class="fa-brands fa-facebook fa-lg"></i>
-        <i class="fa-brands fa-square-twitter fa-lg"></i>
-        <a href="#"><button>Share</button></a>
+    <section class="container">
+      <div class="social-media">
+        <p class="author">By Randy Goldsmith</p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a href="#"><i class="fa-brands fa-square-twitter fa-lg"></i></a>
+          <a href="#"><button class="share-btn">Share</button></a>
+        </div>
       </div>
-      <img />
-    </section>
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-        dolorum obcaecati libero reprehenderit, ut unde in quaerat quas, ipsum
-        consectetur laboriosam itaque repellat illum blanditiis. Obcaecati
-        dolores dolore quibusdam necessitatibus?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione magni
-        reiciendis eaque explicabo quis sapiente id molestias dignissimos omnis,
-        aperiam ducimus nihil non ipsam quos consequatur odit iste ab
-        consectetur?
-      </p>
-    </section>
-    <section>
-      <div>
-        <p>More Info iterative</p>
+      <div class="pic">
+        <img src="pics/engineering.jpg" width="800px" height="500px" />
+      </div>
+      <div class="text">
+        <h2 class="first-heading">The Lore:</h2>
         <p>
-          - The art of a for loop - While, ifs and everything in between - A
-          loop within a loop - Loopception - Arrays back in the day
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          dolorum obcaecati libero reprehenderit, ut unde in quaerat quas, ipsum
+          consectetur laboriosam itaque repellat illum blanditiis. Obcaecati
+          dolores dolore quibusdam necessitatibus? ipsum dolor sit amet,
+          consectetur adipisicing elit ipsum dolor sit amet, consectetur
+          adipisicing elit ipsum dolor sit amet, consectetur adipisicing elit.
+          adipisicing elit ipsum dolor sit amet, consectetur
+        </p>
+        <h2 class="second-heading">The Ipsum:</h2>
+        <p>
+          ipsum dolor sit amet consectetur, adipisicing elit. Ratione magni
+          reiciendis eaque explicabo quis sapiente id molestias dignissimos
+          omnis, aperiam ducimus nihil non ipsam quos consequatur odit iste ab
+          consectetur?
         </p>
       </div>
-      <div>
-        <p>Recursive</p>
-        <p>
-          - To understand recursion - One must understand recursion - All kinds
-          of sorts, sorts of all kinds - Recursion, understand you must - Base
-          case and recursive steps
-        </p>
+      <div class="info">
+        <div class="main-info">
+          <h2>More Info iterative</h2>
+          <p>- The art of a for loop</p>
+          <p>- While, ifs and everything in between</p>
+          <p>- A loop within a loop</p>
+          <p>- Loopception</p>
+          <p>- Arrays back in the day</p>
+        </div>
+        <div class="secondary-info">
+          <h2>Recursive</h2>
+          <p>- To understand recursion</p>
+          <p>- One must understand recursion</p>
+          <p>- All kinds of sorts, sorts of all kinds</p>
+          <p>- Recursion, understand you must</p>
+          <p>- Base case and recursive steps</p>
+        </div>
       </div>
     </section>
     <footer>
-      <div>
-        <a href="#">
-          <img
-            src="https://operation-code-assets.s3.us-east-2.amazonaws.com/codeSchoolLogos/app_academy.jpg"
-            alt="the logo of app academy"
-          />
-        </a>
-      </div>
-      <div>
-        <ul>
-          <li>Contact</li>
-          <li>About Us</li>
-          <li>Terms of Use</li>
-          <li>FAQs</li>
-          <li>Private Policy</li>
-        </ul>
-      </div>
+      <a href="#">
+        <img
+          src="https://operation-code-assets.s3.us-east-2.amazonaws.com/codeSchoolLogos/app_academy.jpg"
+          alt="the logo of app academy"
+        />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Private Policy</a></li>
+      </ul>
     </footer>
   </body>
 </html>
